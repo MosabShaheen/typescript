@@ -1,0 +1,20 @@
+{
+  "name": "calcluator_with_ts",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " tsc && node build/index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "^2.2.4",
+    "@types/inquirer": "^9.0.7",
+    "chalk": "^5.4.1",
+    "inquirer": "^12.3.0"
+  }
+}
